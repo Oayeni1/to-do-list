@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain{
+    background-color: white;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.55em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.log{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+input{
+    width: 50%;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 1.2rem;
+    border: solid rgb(134, 123, 123);
+    color: black;
+    padding: 1rem;
+}
+::placeholder{
+    color: rgb(176, 166, 166);
+    font-size: 1.2rem;
+}
+
+button{
+    background-color: rgb(200, 17, 17);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 12rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: double 0.4rem;
+}
+
+.hide{
+    display: none;
+}
+
+.login-popup{
+    position: absolute;
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    transform: scale(1);
+    transform: 1.5s;
+}
